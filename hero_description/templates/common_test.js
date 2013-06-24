@@ -16,7 +16,7 @@ pgf.descriptions.templates['common-test'] = {
         rasa: { 1: {text: "эльф"},
                 2: {text: "человек"},
                 3: {text: "орк"},
-				4: {text: "хобгоблин"}
+				4: {text: "хобогоблин"}
                 5: {text: "гоблин"}},
         rost: { 1: {text: "высокого"},
                  2: {text: "среднего"},
