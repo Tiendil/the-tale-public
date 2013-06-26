@@ -74,7 +74,7 @@ pgf.descriptions.RenderVariable = function(variableId, values, configuration) {
     var text = "<div class='dropdown pgf-text-variable-"+variableId+"' style='display: inline;'>";
     text += "<a href='#' class='dropdown-toggle' data-toggle='dropdown'>";
     text += values[configuration[variableId]].text + "</a>";
-    text += "<ul class='dropdown-menu'>";
+    text += "<ul class='dropdown-menu' style='max-height: 310px; overflow-y: auto;'>";
 
     for (var valueId in values) {
         var value = values[valueId];
