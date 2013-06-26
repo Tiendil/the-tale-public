@@ -9,7 +9,7 @@ if (!pgf.descriptions.templates) pgf.descriptions.templates = {};
 pgf.descriptions.templates['common-male'] = {
     name: "начальное мужское описание",
     gender: "M",
-    text: "Герой — [[test_str]] [[stature]] [[race]] [[skin_color]] оттенком кожи. Его [[eyes_color]], [[eyes_type]] глаза [[eyes_view]] смотрят на мир. [[hair_color]] [[hair_type]] волосы [[hair_length]]. <br/> "
+    text: "Герой — [[stature]] [[race]] [[skin_color]] оттенком кожи. Его [[eyes_color]], [[eyes_type]] глаза [[eyes_view]] смотрят на мир. [[hair_color]] [[hair_type]] волосы [[hair_length]]. <br/> "
         + "[[bonus]] <br/>" 
         + "Глядя на его  [[figure]] фигуру и [[motions]] движения, многие видят в нем  нечто [[illusion]].",
     variables: {
@@ -141,8 +141,6 @@ pgf.descriptions.templates['common-male'] = {
                    7: {text: "не очень низкий"},
                    8: {text: "невысокий"},
 				   9: {text: "заморыш"}},
-		test_str: {1: {text: "tra-lala"},
-				   2: {text: "tram-pam-pam"}},
         race: { 1: {text: "человек"},
                 2: {text: "гоблин"},
                 3: {text: "орк"},
